@@ -1,0 +1,29 @@
+.mainContainer {
+    padding-left: calc(5% + 18px);
+    padding-right: calc(5% + 18px);
+}
+
+@media (min-width: 992px) {
+    .imageAndContent {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 992px) {
+    .brBeforeLgScrn{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img5 {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .mainContainer {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}

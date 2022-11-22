@@ -1,0 +1,16 @@
+.login_btns:hover {
+    background: #F6F6F7;
+}
+
+.supportLinks {
+    text-decoration: none;
+}
+
+.supportLinks:hover {
+    text-decoration: underline;
+}
+
+.line {
+    height: 5px;
+    background: #FFEE90;
+}

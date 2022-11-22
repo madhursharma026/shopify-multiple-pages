@@ -1,0 +1,52 @@
+.card {
+    box-shadow: 0 4px 45px #d2d5d9;
+    border-radius: 4px;
+    padding: 2.5em 3.125em;
+}
+
+.LearnNewPlan {
+    text-decoration: underline;
+}
+
+.LearnNewPlan:hover {
+    text-decoration: none;
+}
+
+.bgDivChange {
+    background: #FAFAFA;
+}
+
+.questions {
+    font-size: 1.125em;
+    line-height: 1.125em;
+    font-weight: 500;
+}
+
+.answer {
+    font-size: 1.125em;
+    line-height: 1.125em;
+}
+
+.faqsAfterMDScrn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .faqsBeforeMDScrn {
+        display: none;
+    }
+
+    .faqsAfterMDScrn {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+

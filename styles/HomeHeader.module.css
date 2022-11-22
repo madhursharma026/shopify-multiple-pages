@@ -1,0 +1,47 @@
+.headerContainer {
+    padding-left: calc(5% + 18px);
+    padding-right: calc(5% + 18px);
+}
+
+.navbarDropdown{
+    font-size: 1.0625em;
+    font-weight: 500;
+    border: 0;
+    color: #42474c;
+}
+
+.navbarDropdown:hover{
+    font-size: 1.0625em;
+    font-weight: 500;
+    border: 0;
+    color: black;
+}
+
+.navbarLink{
+    font-size: 1.0625em;
+    font-weight: 500;
+    border: 0;
+    color: #42474c;
+    text-decoration: none;
+}
+
+.navbarLink:hover{
+    color: black;
+}
+
+.navbarBtn{
+    background: #008060;
+    color: white;
+}
+
+.navbarBtn:hover{
+    background: #002E25;
+    color: white;
+}
+
+@media (min-width: 1400px) {
+    .headerContainer {
+        margin-left: 6.9%;
+        margin-right: 6.9%;
+    }
+}
