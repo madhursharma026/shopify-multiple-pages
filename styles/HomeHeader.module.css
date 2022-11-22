@@ -45,3 +45,16 @@
         margin-right: 6.9%;
     }
 }
+
+.navbarAfterLGScrn{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .navbarBeforeLGScrn {
+        display: none;
+    }
+    .navbarAfterLGScrn{
+        display: block;
+    }
+}
