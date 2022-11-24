@@ -6,19 +6,19 @@ import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
-    <div style={{ background: 'white', maxHeight: "100%", minHeight: "100vh", overflowX:"hidden" }}>
+    <div style={{ background: 'white', maxHeight: "100%", minHeight: "100vh", overflowX: "hidden" }}>
       <HeaderHomepage />
       <div className={`${styles.mainContainer} row p-0 pt-5`} style={{ background: '#FDF8EE' }}>
         <div className="col-xl-6 pt-5 mt-5" style={{ paddingLeft: "calc(5% + 18px)" }}>
-          <h1 style={{ maxWidth: '18ch', color: "#004c3f", fontSize: "3em", fontWeight: "800" }}>The easiest way to sell online in India</h1>
-          <p className="text-secondary" style={{ fontSize: "1.5em", lineHeight: "1.3333333333", maxWidth: '50ch' }}>
+          <h1 style={{ maxWidth: '20ch', color: "#004c3f",  fontWeight: "800", lineHeight: '1.375' }}>The easiest way to sell online in India</h1>
+          <p className="text-secondary mt-4" style={{ fontSize: "1.3em", lineHeight: "1.3333333333", maxWidth: '50ch' }}>
             Try one of the most powerful platforms on the market for free. No technical knowledge needed.
           </p>
-          <div class="input-group" style={{ height: "50px", maxWidth: '70ch' }}>
+          <div class="input-group mt-4" style={{ height: "50px", maxWidth: '70ch' }}>
             <input type="text" className="form-control" placeholder="Enter Your email address" aria-describedby="inputBtn" />
             <button className="btn btn-outline-secondary" type="button" id="inputBtn" style={{ background: "#004C3F", color: "white" }}><b>Try for free</b></button>
           </div>
-          <p className="mt-2" style={{ fontSize: "13px", maxWidth: '80ch' }}>Try Shopify free for 3 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
+          <p className="mt-3" style={{ fontSize: "13px", maxWidth: '80ch' }}>Try Shopify free for 3 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
         </div>
         <div className="col-xl-6">
           <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/in-hero-product-small-0c64c4c1013fc8ac477cb5ff62bf5b56b2903aec697e6b708b90d3b65a09baf8.jpg" alt="#ImgNotFound" className="w-100 p-0 m-0" />
@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       <div className={`${styles.mainContainer} row`} style={{ background: '#004C3F', padding: '60px' }}>
-        <h1 className="text-white">Bring your business online</h1>
+        <h1 className="text-white mt-4">Bring your business online</h1>
         <div className="row">
           <div className="col-xxl-10">
             <p className="text-white">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>
@@ -36,35 +36,35 @@ export default function Home() {
           </div>
           <div className={`my-5 col-6 col-md ${styles.img1}`}>
             <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/blue-tokai/home-example-small-4144844351e226a9896cffee4bebdaeecb17897116c33a753bfd086b8b621e74.jpg" alt="#ImgNotFound" className="w-100" />
-            <Link href="/" style={{ color: "white", textDecoration: "none" }}>FOOD &  DRINK</Link>
+            <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight:"500" }}>FOOD &  DRINK</Link>
             <h6 className="text-white">Blue Tokai</h6>
           </div>
           <div className={`my-5 col-6 col-md ${styles.img2}`}>
             <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/quirksmith/home-example-small-8b1c6b138414b76150e6e00f5143c4301a07b708aa6113dd7096f4340ddfecad.jpg" alt="#ImgNotFound" className="w-100" />
-            <Link href="/" style={{ color: "white", textDecoration: "none" }}>JEWELRY</Link>
+            <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight:"500" }}>JEWELRY</Link>
             <h6 className="text-white">Quirksmith</h6>
           </div>
           <div className={`my-5 col-6 col-md ${styles.img3}`}>
             <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/crossbeats/home-example-small-099933088cbe804543fbb1b0963a5d0a16365e73e6000949b5b0ab2bf4b21503.jpg" alt="#ImgNotFound" className="w-100" />
-            <Link href="/" style={{ color: "white", textDecoration: "none" }}>ELECTRONICS</Link>
+            <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight:"500" }}>ELECTRONICS</Link>
             <h6 className="text-white">Crossbeats</h6>
           </div>
           <div className={`my-5 col-6 col-md ${styles.img4}`}>
             <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/mcaffeine/home-example-small-26afc247af7a3a7b1c9c585a645ccdff26e76156e98be7d9ff0fe9ecd4d3b675.jpg" alt="#ImgNotFound" className="w-100" />
-            <Link href="/" style={{ color: "white", textDecoration: "none" }}>BEAUTY</Link>
+            <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight:"500" }}>BEAUTY</Link>
             <h6 className="text-white">Mcaffeine</h6>
           </div>
           <div className={`my-5 col ${styles.img5}`}>
             <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/bunaai/home-example-small-4575b175c798e22af5531bae02621396add507433f771db37b1515e9941f8a45.jpg" alt="#ImgNotFound" className="w-100" />
-            <Link href="/" style={{ color: "white", textDecoration: "none" }}>FASHION</Link>
+            <Link href="/" style={{ color: "white", textDecoration: "none", fontWeight:"500" }}>FASHION</Link>
             <h6 className="text-white">Bunaai</h6>
           </div>
         </div>
 
         <div className="mt-5">
-          <h1 className="text-white">
+          <h2 className="text-white" style={{fontWeight:"450"}}>
             Take the best path forward
-          </h1>
+          </h2>
           <div className="row">
             <div className="col-md-6 col-lg-3 mt-3">
               <FaImage className="text-white" style={{ fontSize: "30px" }} />
@@ -99,9 +99,9 @@ export default function Home() {
       </div>
 
 
-      <h1 style={{ fontWeight: '400' }} className='text-center mt-5'>
+      <h2 style={{ fontWeight: '500' }} className='text-center mt-5'>
         With you wherever you’re going
-      </h1>
+      </h2>
       <div className="row">
         <div className="col-md-6 offset-md-3">
           <p className="text-center px-3" style={{ fontSize: '20px' }}>
